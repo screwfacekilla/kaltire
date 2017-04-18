@@ -1,19 +1,16 @@
+import { Version } from '@microsoft/sp-core-library';
 import {
   BaseClientSideWebPart,
-  IPropertyPaneSettings,
-  IWebPartContext,
+  IPropertyPaneConfiguration,
   PropertyPaneTextField
 } from '@microsoft/sp-webpart-base';
+import { escape } from '@microsoft/sp-lodash-subset';
 
 import styles from './HelloWorld.module.scss';
 import * as strings from 'helloWorldStrings';
 import { IHelloWorldWebPartProps } from './IHelloWorldWebPartProps';
 
 export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorldWebPartProps> {
-
-  public constructor(context: IWebPartContext) {
-    super(context);
-  }
 
   public render(): void {
     this.domElement.innerHTML = `
@@ -23,9 +20,9 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
             <div class="ms-Grid-col ms-u-lg10 ms-u-xl8 ms-u-xlPush2 ms-u-lgPush1">
               <span class="ms-font-xl ms-fontColor-white">Welcome to SharePoint!</span>
               <p class="ms-font-l ms-fontColor-white">Customize SharePoint experiences using Web Parts.</p>
-              <p class="ms-font-l ms-fontColor-white">${this.properties.description}</p>
-              <a href="https://github.com/SharePoint/sp-dev-docs/wiki" class="ms-Button ${styles.button}">
-                <span class="ms-Button-label">Learn more</span>
+              <p class="ms-font-l ms-fontColor-white">${escape(this.properties.description)}</p>
+              <a href="https://aka.ms/spfx" class="${styles.button}">
+                <span class="${styles.label}">Learn more</span>
               </a>
             </div>
           </div>
@@ -33,7 +30,11 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
       </div>`;
   }
 
-  protected get propertyPaneSettings(): IPropertyPaneSettings {
+  protected get dataVersion(): Version {
+    return Version.parse('1.0');
+  }
+
+  protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {
     return {
       pages: [
         {
