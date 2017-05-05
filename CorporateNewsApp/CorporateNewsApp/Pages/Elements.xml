@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" />
+    <File Path="Pages\CarouselAppPart.aspx" Url="Pages/CarouselAppPart.aspx" />
+  <File Path="Pages\CarouselHelp.aspx" Url="Pages/CarouselHelp.aspx" />
+<File Path="Pages\MicroNewsAppPart.aspx" Url="Pages/MicroNewsAppPart.aspx" />
+<File Path="Pages\MicroNewsHelp.aspx" Url="Pages/MicroNewsHelp.aspx" />
+<File Path="Pages\HorizontalNewsAppPart.aspx" Url="Pages/HorizontalNewsAppPart.aspx" />
+<File Path="Pages\HorizontalNewsHelp.aspx" Url="Pages/HorizontalNewsHelp.aspx" />
+    <File Path="Pages\CarouselConfig.aspx" Url="Pages/CarouselConfig.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\MicroNewsConfig.aspx" Url="Pages/MicroNewsConfig.aspx" ReplaceContent="TRUE" />
+    <File Path="Pages\HorizontalNewsConfig.aspx" Url="Pages/HorizontalNewsConfig.aspx" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

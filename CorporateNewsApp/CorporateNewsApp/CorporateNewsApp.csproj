@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BFB57A08-6C12-4313-9C59-B18A4115994F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CarouselApp</RootNamespace>
+    <AssemblyName>CarouselApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{b087c329-5e21-4c64-89cd-769d58e0ad61}</AppFeaturePartId>
+    <WspPartId>{56845a85-45dd-4ca7-9522-9bcdeb047613}</WspPartId>
+    <CspkgPartId>{abadd607-9e28-4959-87f7-9ea14e1140b6}</CspkgPartId>
+    <SqlPackagePartId>{210f6270-68a5-4db6-915d-48722d597143}</SqlPackagePartId>
+    <ActiveDeploymentConfiguration>Deploy App for SharePoint</ActiveDeploymentConfiguration>
+    <ActivePublishProfile />
+    <SccProjectName>%24/corporatenewsapp/CorporateNewsApp/CorporateNewsApp</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>https://tfs.codeplex.com/tfs/tfs27</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="CarouselNews\CarouselNewsAppPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8a273963-6649-4482-aa64-842bc37ae6c3}</SharePointProjectItemId>
+    </None>
+    <None Include="CarouselNews\CarouselNewsConfig\CarouselNewsConfigInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{18bd269f-5ba7-4210-9286-b2476bec1cc7}</SharePointProjectItemId>
+    </None>
+    <None Include="CarouselNews\CarouselNewsConfig\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{96749d7f-5637-4933-84a8-a1aa961bd12d}</SharePointProjectItemId>
+    </None>
+    <None Include="CarouselNews\CarouselNewsImagesMock\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a9632dd4-aef3-4c1a-a212-88d61f29845b}</SharePointProjectItemId>
+    </None>
+    <None Include="CarouselNews\CarouselNewsImages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9f26ffba-add0-49d3-a453-e41174069ec5}</SharePointProjectItemId>
+    </None>
+    <None Include="CarouselNews\CarouselNews\CarouselNewsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5773dca4-855f-4a6e-b648-8bac83132a33}</SharePointProjectItemId>
+    </None>
+    <None Include="CarouselNews\CarouselNews\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{17b7b1a3-1b71-44ce-9ec0-6027a58b42a5}</SharePointProjectItemId>
+    </None>
+    <None Include="HorizontalNews\HorizontalNewsAppPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2236c555-8379-4622-9502-ec948f7f350c}</SharePointProjectItemId>
+    </None>
+    <None Include="HorizontalNews\HorizontalNewsConfig\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{83f0bfc7-8b3e-494f-9cec-3b1d42897feb}</SharePointProjectItemId>
+    </None>
+    <None Include="HorizontalNews\HorizontalNewsImagesMock\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{84cedb13-31ce-4560-9e80-f8642da4a345}</SharePointProjectItemId>
+    </None>
+    <None Include="HorizontalNews\HorizontalNewsImages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7c05ca11-b992-4606-ad3c-03fe703504cc}</SharePointProjectItemId>
+    </None>
+    <None Include="HorizontalNews\HorizontalNews\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fb163210-8f1d-4c15-8e5a-ed9fa353886d}</SharePointProjectItemId>
+    </None>
+    <None Include="MicroNews\MicroNewsAppPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e571e185-5e65-4e08-b4f5-643b0d0132e1}</SharePointProjectItemId>
+    </None>
+    <None Include="MicroNews\MicroNewsConfig\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{00b066d7-6548-4d36-a806-178283273600}</SharePointProjectItemId>
+    </None>
+    <None Include="MicroNews\MicroNews\MicroNewsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6de8f406-471e-42e9-96fa-f495477cebce}</SharePointProjectItemId>
+    </None>
+    <None Include="MicroNews\MicroNews\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{06d1662d-b63f-43fb-aa24-5141865d875e}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1d39b4be-60e0-45d3-9084-186800df12e2}</SharePointProjectItemId>
+    </None>
+    <Content Include="CarouselNews\CarouselNewsAppPart\Elements.xml">
+      <SubType>ParentWebElementManifest</SubType>
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="CarouselNews\CarouselNewsConfig\CarouselNewsConfigInstance\Elements.xml" />
+    <Content Include="CarouselNews\CarouselNewsConfig\Elements.xml" />
+    <Content Include="CarouselNews\CarouselNewsConfig\Schema.xml" />
+    <Content Include="CarouselNews\CarouselNewsImagesMock\Elements.xml" />
+    <Content Include="CarouselNews\CarouselNewsImagesMock\image1.jpg" />
+    <Content Include="CarouselNews\CarouselNewsImagesMock\image2.jpg" />
+    <Content Include="CarouselNews\CarouselNewsImagesMock\image3.jpg" />
+    <Content Include="CarouselNews\CarouselNewsImagesMock\image4.jpg" />
+    <Content Include="CarouselNews\CarouselNewsImagesMock\image5.jpg" />
+    <Content Include="CarouselNews\CarouselNewsImagesMock\image6.jpg" />
+    <Content Include="CarouselNews\CarouselNewsImages\Elements.xml" />
+    <Content Include="CarouselNews\CarouselNews\CarouselNewsInstance\Elements.xml" />
+    <Content Include="CarouselNews\CarouselNews\Elements.xml" />
+    <Content Include="CarouselNews\CarouselNews\Schema.xml" />
+    <Content Include="Css\AppBack.css" />
+    <Content Include="Css\CarouselAppPartPreview.css" />
+    <Content Include="Css\HorizontalNewsAppPartPreview.css" />
+    <Content Include="Css\MicroNewsAppPartPreview.css" />
+    <Content Include="Css\HorizontalNewsAppPart.css" />
+    <Content Include="Css\MicroNewsAppPart.css" />
+    <Content Include="HorizontalNews\HorizontalNewsAppPart\Elements.xml">
+      <SubType>Designer</SubType>
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="HorizontalNews\HorizontalNewsConfig\Elements.xml" />
+    <Content Include="HorizontalNews\HorizontalNewsImagesMock\Elements.xml" />
+    <Content Include="HorizontalNews\HorizontalNewsImagesMock\sample-01.jpg" />
+    <Content Include="HorizontalNews\HorizontalNewsImagesMock\sample-02.jpg" />
+    <Content Include="HorizontalNews\HorizontalNewsImagesMock\sample-03.jpg" />
+    <Content Include="HorizontalNews\HorizontalNewsImagesMock\sample-04.jpg" />
+    <Content Include="HorizontalNews\HorizontalNewsImagesMock\sample-05.jpg" />
+    <Content Include="HorizontalNews\HorizontalNewsImagesMock\sample-06.jpg" />
+    <Content Include="HorizontalNews\HorizontalNewsImagesMock\sample-07.jpg" />
+    <Content Include="HorizontalNews\HorizontalNewsImages\Elements.xml" />
+    <Content Include="HorizontalNews\HorizontalNews\Elements.xml" />
+    <Content Include="Images\arrows-h-btn.png" />
+    <Content Include="Images\arrows-h-btn1.png" />
+    <Content Include="Images\arrows-h-btn2.png" />
+    <Content Include="Images\Carousel2.png" />
+    <Content Include="Images\CarouselNews.png" />
+    <Content Include="Images\CarouselNewsHelp01.png" />
+    <Content Include="Images\CarouselNewsHelp02.png" />
+    <Content Include="Images\Config.png" />
+    <Content Include="Images\fs-sprite.png" />
+    <Content Include="Images\loader1.gif" />
+    <Content Include="Images\Help.png" />
+    <Content Include="Images\Horizontal.png" />
+    <Content Include="Images\HorizontalNewsHelp01.png" />
+    <Content Include="Images\HorizontalNewsHelp02.png" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\Loader2.gif" />
+    <Content Include="Images\Loader3.gif" />
+    <Content Include="Images\Loader4.gif" />
+    <Content Include="Images\Loader5.gif" />
+    <Content Include="Images\Loader6.gif" />
+    <Content Include="Images\MicroNews.png" />
+    <Content Include="Images\MicroNewsHelp01.png" />
+    <Content Include="Images\MicroNewsHelp02.png" />
+    <Content Include="Images\Pics.png" />
+    <Content Include="Images\Preview.png" />
+    <Content Include="Images\rm-gradients.png" />
+    <Content Include="Images\rm-opacity-bl-50.png" />
+    <Content Include="Images\rm-pictos.png" />
+    <Content Include="Images\rm-slider-nav-arrow.png" />
+    <Content Include="MicroNews\MicroNewsAppPart\Elements.xml">
+      <SubType>ParentWebElementManifest</SubType>
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="MicroNews\MicroNewsConfig\Elements.xml" />
+    <Content Include="MicroNews\MicroNews\Elements.xml" />
+    <Content Include="MicroNews\MicroNews\MicroNewsInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MicroNews\MicroNews\Schema.xml" />
+    <Content Include="Pages\CarouselAppPart.aspx" />
+    <Content Include="Pages\CarouselHelp.aspx" />
+    <Content Include="Pages\CarouselConfig.aspx" />
+    <Content Include="Pages\HorizontalNewsConfig.aspx" />
+    <Content Include="Pages\MicroNewsConfig.aspx" />
+    <Content Include="Pages\HorizontalNewsHelp.aspx" />
+    <Content Include="Pages\HorizontalNewsAppPart.aspx" />
+    <Content Include="Pages\MicroNewsHelp.aspx" />
+    <Content Include="Pages\MicroNewsAppPart.aspx" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{210f6270-68a5-4db6-915d-48722d597143}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\arrow.gif" />
+    <Content Include="Scripts\CarouselConfig.js" />
+    <Content Include="Scripts\Resources.es-es.js" />
+    <Content Include="Scripts\Resources.de-de.js" />
+    <Content Include="Scripts\HorizontalConfig.js" />
+    <Content Include="Scripts\MicroConfig.js" />
+    <Content Include="Scripts\cross.gif" />
+    <Content Include="Scripts\hs.png" />
+    <Content Include="Scripts\hv.png" />
+    <Content Include="Scripts\jquery.fontselect.js" />
+    <Content Include="Scripts\jscolor.js" />
+    <Content Include="Scripts\Resources.js" />
+    <Content Include="Scripts\Resources.fr-fr.js" />
+    <Content Include="Scripts\HorizontalNewsAppPart.js" />
+    <Content Include="Scripts\MicroNewsAppPart.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\CarouselAppPart.js" />
+    <Content Include="Scripts\jquery-1.6.4.min.js" />
+    <Content Include="Scripts\jquery.easing.1.3.min.js" />
+    <Content Include="Scripts\jquery.sliderkit.1.9.2.pack.js" />
+    <Content Include="Scripts\Resources.en-us.js" />
+    <Content Include="Scripts\sliderkit.delaycaptions.1.1.pack.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Css\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2f6042b5-353a-4e30-b8da-eae52e03dda9}</SharePointProjectItemId>
+    </None>
+    <Content Include="Css\Elements.xml" />
+    <Content Include="Css\CarouselAppPart.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d6450ad7-df9c-41ab-bb23-ccb30dbf920c}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{db7669eb-3350-48fa-a94f-1372823bdccf}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\CorporateNewsApp\CorporateNewsApp.feature">
+      <FeatureId>{46965058-d3f8-4288-92ff-7377c4f38601}</FeatureId>
+    </None>
+    <None Include="Features\CorporateNewsApp\CorporateNewsApp.Template.xml">
+      <DependentUpon>CorporateNewsApp.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.resx">
+      <OpcRelationship>content-defaultresource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.en-US.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.fr-FR.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.de-DE.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.es-ES.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

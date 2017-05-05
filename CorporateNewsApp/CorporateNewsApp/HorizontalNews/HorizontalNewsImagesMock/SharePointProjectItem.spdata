@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="HorizontalNewsImagesMock\" Type="ElementManifest" />
+    <ProjectItemFile Source="sample-01.jpg" Target="HorizontalNewsImagesMock\" Type="ElementFile" />
+    <ProjectItemFile Source="sample-02.jpg" Target="HorizontalNewsImagesMock\" Type="ElementFile" />
+    <ProjectItemFile Source="sample-03.jpg" Target="HorizontalNewsImagesMock\" Type="ElementFile" />
+    <ProjectItemFile Source="sample-04.jpg" Target="HorizontalNewsImagesMock\" Type="ElementFile" />
+    <ProjectItemFile Source="sample-05.jpg" Target="HorizontalNewsImagesMock\" Type="ElementFile" />
+    <ProjectItemFile Source="sample-06.jpg" Target="HorizontalNewsImagesMock\" Type="ElementFile" />
+    <ProjectItemFile Source="sample-07.jpg" Target="HorizontalNewsImagesMock\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

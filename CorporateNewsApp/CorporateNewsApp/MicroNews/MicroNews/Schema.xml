@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="MicroNews" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/MicroNews" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+    <ContentType ID="0x010097795e9248704ed2bf57587ad066390e" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{8f2baf4d-6bc5-45c2-ad18-38cba73274fd}" Name="Enabled" /><FieldRef ID="{749e5f56-731f-48bf-b6cc-c575d02db9c4}" Name="PublicationDate" /><FieldRef ID="{68dadd2f-8ac7-4362-a283-626dc2182801}" Name="PublicationEndDate" /><FieldRef ID="{65463323-0dfc-494c-8eb6-a39e8b1c8ed3}" Name="Order0" /><FieldRef ID="{78ad5aa3-67c3-4696-ac19-d391a63a6657}" Name="LinkUrl" /><FieldRef ID="{6e0f88a5-24cf-468f-bf48-aafec9a1a3c2}" Name="LanguageCode" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    
+      
+      
+      
+      
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Enabled" ID="{8f2baf4d-6bc5-45c2-ad18-38cba73274fd}" DisplayName="Enabled" Type="Boolean" Required="TRUE">
+        <Default>1</Default>
+      </Field><Field Name="PublicationDate" ID="{749e5f56-731f-48bf-b6cc-c575d02db9c4}" DisplayName="Publication Date" Type="DateTime" Required="TRUE">
+        <Default>[today]</Default>
+      </Field><Field Name="PublicationEndDate" ID="{68dadd2f-8ac7-4362-a283-626dc2182801}" DisplayName="Publication End Date" Type="DateTime" Required="TRUE"></Field><Field Name="Order0" ID="{65463323-0dfc-494c-8eb6-a39e8b1c8ed3}" DisplayName="Order" Type="Number" Required="TRUE">
+        <Default>1</Default>
+      </Field><Field Name="LinkUrl" ID="{78ad5aa3-67c3-4696-ac19-d391a63a6657}" DisplayName="Link Url" Type="Text" Required="TRUE" /><Field Name="LanguageCode" ID="{6e0f88a5-24cf-468f-bf48-aafec9a1a3c2}" DisplayName="LanguageCode" Type="Choice" Required="TRUE">
+        <CHOICES>
+          <CHOICE>am-am</CHOICE>
+          <CHOICE>ar-ae</CHOICE>
+          <CHOICE>ar-bh</CHOICE>
+          <CHOICE>ar-dz</CHOICE>
+          <CHOICE>ar-eg</CHOICE>
+          <CHOICE>ar-iq</CHOICE>
+          <CHOICE>ar-jo</CHOICE>
+          <CHOICE>ar-kw</CHOICE>
+          <CHOICE>ar-lb</CHOICE>
+          <CHOICE>ar-ly</CHOICE>
+          <CHOICE>ar-ma</CHOICE>
+          <CHOICE>ar-om</CHOICE>
+          <CHOICE>ar-qa</CHOICE>
+          <CHOICE>ar-sa</CHOICE>
+          <CHOICE>ar-sy</CHOICE>
+          <CHOICE>ar-tn</CHOICE>
+          <CHOICE>ar-ye</CHOICE>
+          <CHOICE>as-as</CHOICE>
+          <CHOICE>az-az</CHOICE>
+          <CHOICE>az-az</CHOICE>
+          <CHOICE>be-be</CHOICE>
+          <CHOICE>bg-bg</CHOICE>
+          <CHOICE>bn-bn</CHOICE>
+          <CHOICE>bo-bo</CHOICE>
+          <CHOICE>bs-bs</CHOICE>
+          <CHOICE>ca-ca</CHOICE>
+          <CHOICE>cs-cs</CHOICE>
+          <CHOICE>cy-cy</CHOICE>
+          <CHOICE>da-da</CHOICE>
+          <CHOICE>de-at</CHOICE>
+          <CHOICE>de-ch</CHOICE>
+          <CHOICE>de-de</CHOICE>
+          <CHOICE>de-li</CHOICE>
+          <CHOICE>de-lu</CHOICE>
+          <CHOICE>dv-dv</CHOICE>
+          <CHOICE>el-el</CHOICE>
+          <CHOICE>en-au</CHOICE>
+          <CHOICE>en-bz</CHOICE>
+          <CHOICE>en-ca</CHOICE>
+          <CHOICE>en-cb</CHOICE>
+          <CHOICE>en-gb</CHOICE>
+          <CHOICE>en-ie</CHOICE>
+          <CHOICE>en-in</CHOICE>
+          <CHOICE>en-jm</CHOICE>
+          <CHOICE>en-nz</CHOICE>
+          <CHOICE>en-ph</CHOICE>
+          <CHOICE>en-tt</CHOICE>
+          <CHOICE>en-us</CHOICE>
+          <CHOICE>en-za</CHOICE>
+          <CHOICE>es-ar</CHOICE>
+          <CHOICE>es-bo</CHOICE>
+          <CHOICE>es-cl</CHOICE>
+          <CHOICE>es-co</CHOICE>
+          <CHOICE>es-cr</CHOICE>
+          <CHOICE>es-do</CHOICE>
+          <CHOICE>es-ec</CHOICE>
+          <CHOICE>es-es</CHOICE>
+          <CHOICE>es-gt</CHOICE>
+          <CHOICE>es-hn</CHOICE>
+          <CHOICE>es-mx</CHOICE>
+          <CHOICE>es-ni</CHOICE>
+          <CHOICE>es-pa</CHOICE>
+          <CHOICE>es-pe</CHOICE>
+          <CHOICE>es-pr</CHOICE>
+          <CHOICE>es-py</CHOICE>
+          <CHOICE>es-sv</CHOICE>
+          <CHOICE>es-uy</CHOICE>
+          <CHOICE>es-ve</CHOICE>
+          <CHOICE>et-et</CHOICE>
+          <CHOICE>eu-eu</CHOICE>
+          <CHOICE>fa-fa</CHOICE>
+          <CHOICE>fi-fi</CHOICE>
+          <CHOICE>fo-fo</CHOICE>
+          <CHOICE>fr-be</CHOICE>
+          <CHOICE>fr-ca</CHOICE>
+          <CHOICE>fr-ch</CHOICE>
+          <CHOICE>fr-fr</CHOICE>
+          <CHOICE>fr-lu</CHOICE>
+          <CHOICE>gd-gd</CHOICE>
+          <CHOICE>gd-ie</CHOICE>
+          <CHOICE>gn-gn</CHOICE>
+          <CHOICE>gu-gu</CHOICE>
+          <CHOICE>he-he</CHOICE>
+          <CHOICE>hi-hi</CHOICE>
+          <CHOICE>hr-hr</CHOICE>
+          <CHOICE>hu-hu</CHOICE>
+          <CHOICE>hy-hy</CHOICE>
+          <CHOICE>id-id</CHOICE>
+          <CHOICE>is-is</CHOICE>
+          <CHOICE>it-ch</CHOICE>
+          <CHOICE>it-it</CHOICE>
+          <CHOICE>ja-ja</CHOICE>
+          <CHOICE>kk-kk</CHOICE>
+          <CHOICE>km-km</CHOICE>
+          <CHOICE>kn-kn</CHOICE>
+          <CHOICE>ko-ko</CHOICE>
+          <CHOICE>ks-ks</CHOICE>
+          <CHOICE>la-la</CHOICE>
+          <CHOICE>lo-lo</CHOICE>
+          <CHOICE>lt-lt</CHOICE>
+          <CHOICE>lv-lv</CHOICE>
+          <CHOICE>mi-mi</CHOICE>
+          <CHOICE>mk-mk</CHOICE>
+          <CHOICE>ml-ml</CHOICE>
+          <CHOICE>mn-mn</CHOICE>
+          <CHOICE>mr-mr</CHOICE>
+          <CHOICE>ms-bn</CHOICE>
+          <CHOICE>ms-my</CHOICE>
+          <CHOICE>mt-mt</CHOICE>
+          <CHOICE>my-my</CHOICE>
+          <CHOICE>nb-no</CHOICE>
+          <CHOICE>ne-ne</CHOICE>
+          <CHOICE>nl-be</CHOICE>
+          <CHOICE>nl-nl</CHOICE>
+          <CHOICE>no-no</CHOICE>
+          <CHOICE>or-or</CHOICE>
+          <CHOICE>pa-pa</CHOICE>
+          <CHOICE>pl-pl</CHOICE>
+          <CHOICE>pt-br</CHOICE>
+          <CHOICE>pt-pt</CHOICE>
+          <CHOICE>rm-rm</CHOICE>
+          <CHOICE>ro-ro</CHOICE>
+          <CHOICE>ro-mo</CHOICE>
+          <CHOICE>ru-ru</CHOICE>
+          <CHOICE>ru-mo</CHOICE>
+          <CHOICE>sa-sa</CHOICE>
+          <CHOICE>sb-sb</CHOICE>
+          <CHOICE>sd-sd</CHOICE>
+          <CHOICE>si-si</CHOICE>
+          <CHOICE>sk-sk</CHOICE>
+          <CHOICE>sl-sl</CHOICE>
+          <CHOICE>so-so</CHOICE>
+          <CHOICE>sq-sq</CHOICE>
+          <CHOICE>sr-sp</CHOICE>
+          <CHOICE>sr-sp</CHOICE>
+          <CHOICE>sv-fi</CHOICE>
+          <CHOICE>sv-se</CHOICE>
+          <CHOICE>sw-sw</CHOICE>
+          <CHOICE>ta-ta</CHOICE>
+          <CHOICE>te-te</CHOICE>
+          <CHOICE>tg-tg</CHOICE>
+          <CHOICE>th-th</CHOICE>
+          <CHOICE>tk-tk</CHOICE>
+          <CHOICE>tn-tn</CHOICE>
+          <CHOICE>tr-tr</CHOICE>
+          <CHOICE>ts-ts</CHOICE>
+          <CHOICE>tt-tt</CHOICE>
+          <CHOICE>uk-uk</CHOICE>
+          <CHOICE>ur-ur</CHOICE>
+          <CHOICE>uz-uz</CHOICE>
+          <CHOICE>vi-vi</CHOICE>
+          <CHOICE>xh-xh</CHOICE>
+          <CHOICE>yi-yi</CHOICE>
+          <CHOICE>zh-cn</CHOICE>
+          <CHOICE>zh-hk</CHOICE>
+          <CHOICE>zh-mo</CHOICE>
+          <CHOICE>zh-sg</CHOICE>
+          <CHOICE>zh-tw</CHOICE>
+          <CHOICE>zu-zu</CHOICE>
+        </CHOICES>
+      </Field></Fields>
+    <Views>
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Enabled" /><FieldRef Name="PublicationDate" /><FieldRef Name="PublicationEndDate" /><FieldRef Name="Order0" /><FieldRef Name="LinkUrl" /><FieldRef Name="LanguageCode" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

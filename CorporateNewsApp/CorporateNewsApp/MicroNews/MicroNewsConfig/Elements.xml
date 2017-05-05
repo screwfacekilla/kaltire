@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="MicroNewsConfig" OnQuickLaunch="TRUE" TemplateType="10002" FeatureId="46965058-d3f8-4288-92ff-7377c4f38601" Url="Lists/MicroNewsConfig" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Width</Field>
+          <Field Name="KeyValue">570</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Height</Field>
+          <Field Name="KeyValue">16</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PanelWidth</Field>
+          <Field Name="KeyValue">450</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PanelHeight</Field>
+          <Field Name="KeyValue">16</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">BgColor</Field>
+          <Field Name="KeyValue">FFFFFF</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HeadLineBgColor</Field>
+          <Field Name="KeyValue">B6FF00</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Loader</Field>
+          <Field Name="KeyValue">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">FontFamily</Field>
+          <Field Name="KeyValue">Segoe UI</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">FontSize</Field>
+          <Field Name="KeyValue">13px</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TextDecoration</Field>
+          <Field Name="KeyValue">true</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">FontColor</Field>
+          <Field Name="KeyValue">463FFF</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">HeadlineFontColor</Field>
+          <Field Name="KeyValue">000000</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

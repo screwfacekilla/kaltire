@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="MicroNewsAppPart" Title="Micro News App Part" Description="Add this app part to add micro news ticker feature in your web site." DefaultWidth="570" DefaultHeight="16">
+
+    <Content Type="html" Src="~appWebUrl/Pages/MicroNewsAppPart.aspx?SPHostUrl={HostUrl}&amp;SPAppWebUrl={AppWebUrl}&amp;SPLanguage={Language}&amp;SPLanguage={Language}&amp;AutoStart=_AutoStart_&amp;Circular=_Circular_&amp;Transition=_Transition_&amp;PanelFxSpeed=_PanelFxSpeed_&amp;HeadlineText=_HeadlineText_&amp;CssFile=_CssFile_" />
+
+    <Properties>
+      <!-- General Settings -->
+      <Property Name="AutoStart" Type="boolean" WebBrowsable="true" WebDisplayName="AutoStart" WebDescription="Please Choose if you want that the carousel slideshow starts automatically" WebCategory="General Settings" DefaultValue="true" RequiresDesignerPermission="true" />
+      <Property Name="Circular" Type="boolean" WebBrowsable="true" WebDisplayName="Circular" WebDescription="Please Choose if you want that the news slideshow is circular" WebCategory="General Settings" DefaultValue="true" RequiresDesignerPermission="true" />
+      <Property Name="CssFile" Type="string" WebBrowsable="true" WebDisplayName="Custom CSS File" WebDescription="Indicates a custom CSS file url" WebCategory="General Settings" DefaultValue="" RequiresDesignerPermission="true" />
+      <Property Name="HeadlineText" Type="string" WebBrowsable="true" WebDisplayName="Headline text" WebDescription="Headline text" WebCategory="General Settings" DefaultValue="Latest news:" RequiresDesignerPermission="true" />
+      <!-- Effects Settings -->
+      <Property Name="Transition" Type="enum" WebBrowsable="true" WebDisplayName="Transition" WebDescription="Please Choose the transition effect" WebCategory="Effects Settings" DefaultValue="sliding" RequiresDesignerPermission="true">
+        <EnumItems>
+          <EnumItem WebDisplayName="None" Value="none"/>
+          <EnumItem WebDisplayName="Fading" Value="fading"/>
+          <EnumItem WebDisplayName="Sliding" Value="sliding"/>
+        </EnumItems>
+      </Property>
+      <Property Name="PanelFxSpeed" Type="int" WebBrowsable="true" WebDisplayName="Panel Fx Speed" WebDescription="Please Choose the effect panel speed" WebCategory="Effects Settings" DefaultValue="400" RequiresDesignerPermission="true" />
+    </Properties>
+
+  </ClientWebPart>
+</Elements>

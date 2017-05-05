@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\CarouselAppPart.js" Url="Scripts/CarouselAppPart.js" />
+    <File Path="Scripts\sliderkit.delaycaptions.1.1.pack.js" Url="Scripts/sliderkit.delaycaptions.1.1.pack.js" />
+    <File Path="Scripts\jquery.easing.1.3.min.js" Url="Scripts/jquery.easing.1.3.min.js" />
+    <File Path="Scripts\jquery.sliderkit.1.9.2.pack.js" Url="Scripts/jquery.sliderkit.1.9.2.pack.js" />
+    <File Path="Scripts\jquery-1.6.4.min.js" Url="Scripts/jquery-1.6.4.min.js" />
+  <File Path="Scripts\MicroNewsAppPart.js" Url="Scripts/MicroNewsAppPart.js" />
+<File Path="Scripts\HorizontalNewsAppPart.js" Url="Scripts/HorizontalNewsAppPart.js" />
+<File Path="Scripts\Resources.en-us.js" Url="Scripts/Resources.en-us.js" />
+<File Path="Scripts\Resources.fr-fr.js" Url="Scripts/Resources.fr-fr.js" />
+<File Path="Scripts\Resources.js" Url="Scripts/Resources.js" />
+    <File Path="Scripts\CarouselConfig.js" Url="Scripts/CarouselConfig.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jscolor.js" Url="Scripts/jscolor.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\arrow.gif" Url="Scripts/arrow.gif" ReplaceContent="TRUE" />
+    <File Path="Scripts\cross.gif" Url="Scripts/cross.gif" ReplaceContent="TRUE" />
+    <File Path="Scripts\hs.png" Url="Scripts/hs.png" ReplaceContent="TRUE" />
+    <File Path="Scripts\hv.png" Url="Scripts/hv.png" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.fontselect.js" Url="Scripts/jquery.fontselect.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\MicroConfig.js" Url="Scripts/MicroConfig.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\HorizontalConfig.js" Url="Scripts/HorizontalConfig.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Resources.de-de.js" Url="Scripts/Resources.de-de.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Resources.es-es.js" Url="Scripts/Resources.es-es.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Css\" Type="ElementManifest" />
+    <ProjectItemFile Source="CarouselAppPart.css" Target="Css\" Type="ElementFile" />
+    <ProjectItemFile Source="AppBack.css" Target="Css\" Type="ElementFile" />
+    <ProjectItemFile Source="MicroNewsAppPart.css" Target="Css\" Type="ElementFile" />
+    <ProjectItemFile Source="HorizontalNewsAppPart.css" Target="Css\" Type="ElementFile" />
+    <ProjectItemFile Source="CarouselAppPartPreview.css" Target="Css\" Type="ElementFile" />
+    <ProjectItemFile Source="MicroNewsAppPartPreview.css" Target="Css\" Type="ElementFile" />
+    <ProjectItemFile Source="HorizontalNewsAppPartPreview.css" Target="Css\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

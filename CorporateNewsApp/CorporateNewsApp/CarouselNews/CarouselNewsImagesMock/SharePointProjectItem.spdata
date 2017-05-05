@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="CarouselNewsImagesMock\" Type="ElementManifest" />
+    <ProjectItemFile Source="image6.jpg" Target="CarouselNewsImagesMock\" Type="ElementFile" />
+    <ProjectItemFile Source="image1.jpg" Target="CarouselNewsImagesMock\" Type="ElementFile" />
+    <ProjectItemFile Source="image2.jpg" Target="CarouselNewsImagesMock\" Type="ElementFile" />
+    <ProjectItemFile Source="image3.jpg" Target="CarouselNewsImagesMock\" Type="ElementFile" />
+    <ProjectItemFile Source="image4.jpg" Target="CarouselNewsImagesMock\" Type="ElementFile" />
+    <ProjectItemFile Source="image5.jpg" Target="CarouselNewsImagesMock\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

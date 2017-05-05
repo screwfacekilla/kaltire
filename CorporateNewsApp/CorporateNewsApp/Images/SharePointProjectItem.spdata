@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Images\" Type="ElementManifest" />
+    <ProjectItemFile Source="AppIcon.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="rm-gradients.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="rm-opacity-bl-50.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="rm-pictos.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="rm-slider-nav-arrow.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="loader.gif" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Help.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Pics.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Preview.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="MicroNews.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Horizontal.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="arrows-h-btn.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="MicroNewsHelp01.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="MicroNewsHelp02.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="HorizontalNewsHelp01.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="HorizontalNewsHelp02.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="CarouselNewsHelp01.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="CarouselNewsHelp02.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Config.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Loader2.gif" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Loader3.gif" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Loader5.gif" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Loader4.gif" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="loader1.gif" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="fs-sprite.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Carousel2.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Loader6.gif" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="arrows-h-btn1.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="arrows-h-btn2.png" Target="Images\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
