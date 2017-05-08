@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" />
+    <File Path="Images\rm-gradients.png" Url="Images/rm-gradients.png" />
+    <File Path="Images\rm-opacity-bl-50.png" Url="Images/rm-opacity-bl-50.png" />
+    <File Path="Images\rm-pictos.png" Url="Images/rm-pictos.png" />
+    <File Path="Images\rm-slider-nav-arrow.png" Url="Images/rm-slider-nav-arrow.png" />
+    <File Path="Images\loader.gif" Url="Images/loader.gif" />
+    <File Path="Images\Help.png" Url="Images/Help.png" />
+<File Path="Images\Pics.png" Url="Images/Pics.png" />
+<File Path="Images\Preview.png" Url="Images/Preview.png" />
+<File Path="Images\MicroNews.png" Url="Images/MicroNews.png" />
+<File Path="Images\Horizontal.png" Url="Images/Horizontal.png" />
+<File Path="Images\arrows-h-btn.png" Url="Images/arrows-h-btn.png" />
+<File Path="Images\MicroNewsHelp01.png" Url="Images/MicroNewsHelp01.png" />
+<File Path="Images\MicroNewsHelp02.png" Url="Images/MicroNewsHelp02.png" />
+<File Path="Images\HorizontalNewsHelp01.png" Url="Images/HorizontalNewsHelp01.png" />
+<File Path="Images\HorizontalNewsHelp02.png" Url="Images/HorizontalNewsHelp02.png" />
+<File Path="Images\CarouselNewsHelp01.png" Url="Images/CarouselNewsHelp01.png" />
+<File Path="Images\CarouselNewsHelp02.png" Url="Images/CarouselNewsHelp02.png" />
+    <File Path="Images\Config.png" Url="Images/Config.png" ReplaceContent="TRUE" />
+    <File Path="Images\Loader2.gif" Url="Images/Loader2.gif" ReplaceContent="TRUE" />
+    <File Path="Images\Loader3.gif" Url="Images/Loader3.gif" ReplaceContent="TRUE" />
+    <File Path="Images\Loader5.gif" Url="Images/Loader5.gif" ReplaceContent="TRUE" />
+    <File Path="Images\Loader4.gif" Url="Images/Loader4.gif" ReplaceContent="TRUE" />
+    <File Path="Images\loader1.gif" Url="Images/loader1.gif" ReplaceContent="TRUE" />
+    <File Path="Images\fs-sprite.png" Url="Images/fs-sprite.png" ReplaceContent="TRUE" />
+    <File Path="Images\Carousel2.png" Url="Images/Carousel2.png" ReplaceContent="TRUE" />
+    <File Path="Images\Loader6.gif" Url="Images/Loader6.gif" ReplaceContent="TRUE" />
+    <File Path="Images\arrows-h-btn1.png" Url="Images/arrows-h-btn1.png" ReplaceContent="TRUE" />
+    <File Path="Images\arrows-h-btn2.png" Url="Images/arrows-h-btn2.png" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

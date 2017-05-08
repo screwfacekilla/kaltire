@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Css">
+    <File Path="Css\CarouselAppPart.css" Url="Css/CarouselAppPart.css" />
+    <File Path="Css\AppBack.css" Url="Css/AppBack.css" />
+  <File Path="Css\MicroNewsAppPart.css" Url="Css/MicroNewsAppPart.css" />
+<File Path="Css\HorizontalNewsAppPart.css" Url="Css/HorizontalNewsAppPart.css" />
+    <File Path="Css\CarouselAppPartPreview.css" Url="Css/CarouselAppPartPreview.css" ReplaceContent="TRUE" />
+    <File Path="Css\MicroNewsAppPartPreview.css" Url="Css/MicroNewsAppPartPreview.css" ReplaceContent="TRUE" />
+    <File Path="Css\HorizontalNewsAppPartPreview.css" Url="Css/HorizontalNewsAppPartPreview.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

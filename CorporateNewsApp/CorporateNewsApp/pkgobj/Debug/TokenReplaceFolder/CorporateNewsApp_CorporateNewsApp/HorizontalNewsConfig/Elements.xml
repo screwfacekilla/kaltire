@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="HorizontalNewsConfig" OnQuickLaunch="TRUE" TemplateType="10002" FeatureId="46965058-d3f8-4288-92ff-7377c4f38601" Url="Lists/HorizontalNewsConfig" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Width</Field>
+          <Field Name="KeyValue">700</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Height</Field>
+          <Field Name="KeyValue">180</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PicWidth</Field>
+          <Field Name="KeyValue">130</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PicHeight</Field>
+          <Field Name="KeyValue">87</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">BgColor</Field>
+          <Field Name="KeyValue">FFFFFF</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Loader</Field>
+          <Field Name="KeyValue">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">FontFamily</Field>
+          <Field Name="KeyValue">Segoe UI</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TitleFontSize</Field>
+          <Field Name="KeyValue">13px</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TitleFontColor</Field>
+          <Field Name="KeyValue">000000</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">DescFontSize</Field>
+          <Field Name="KeyValue">11px</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">DescFontColor</Field>
+          <Field Name="KeyValue">000000</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">LinkFontSize</Field>
+          <Field Name="KeyValue">11px</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">LinkFontColor</Field>
+          <Field Name="KeyValue">463FFF</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">LinkUnderline</Field>
+          <Field Name="KeyValue">true</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ArrowStyle</Field>
+          <Field Name="KeyValue">1</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

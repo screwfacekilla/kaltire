@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="CarouselNewsImagesMock" Url="CarouselNewsImages">
+    <File Path="CarouselNewsImagesMock\image1.jpg" Url="image1.jpg" Type="GhostableInLibrary"/>
+    <File Path="CarouselNewsImagesMock\image2.jpg" Url="image2.jpg" Type="GhostableInLibrary"/>
+    <File Path="CarouselNewsImagesMock\image3.jpg" Url="image3.jpg" Type="GhostableInLibrary"/>
+  </Module>
+</Elements>

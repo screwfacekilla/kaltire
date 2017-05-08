@@ -1,0 +1,3 @@
+C:\Users\julian.charles\Documents\GitHub\kaltire\CorporateNewsApp\CorporateNewsApp\bin\Release\CarouselApp.pdb
+C:\Users\julian.charles\Documents\GitHub\kaltire\CorporateNewsApp\CorporateNewsApp\obj\Release\CarouselApp.dll
+C:\Users\julian.charles\Documents\GitHub\kaltire\CorporateNewsApp\CorporateNewsApp\obj\Release\CarouselApp.pdb

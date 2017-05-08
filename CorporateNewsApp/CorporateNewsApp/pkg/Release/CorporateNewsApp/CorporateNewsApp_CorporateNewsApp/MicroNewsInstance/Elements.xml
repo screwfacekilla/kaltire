@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Micro News" OnQuickLaunch="FALSE" TemplateType="10001" Url="Lists/MicroNews" Description="">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Join the next community meeting on July...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">1</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">The new trainings are now available...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">2</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">The next contoso event will be great...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">3</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Follow in real time the company share price...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">4</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Watch the video of our CEO during the last keynote...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">5</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Subscribe to the new holidays offers...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">6</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Inactive News EN</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">7</Field>
+          <Field Name="Enabled">false</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Obsolete News EN</Field>
+          <Field Name="PublicationDate">2010-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2011-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">8</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Rejoignez la prochaine soirée entreprise...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">1</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Les nouvelles formations sont disponibles...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">2</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Tout le programme des évènements...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">3</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Suivez en temps réel les évolutions de l'action...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">4</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Suivre le discours de lancement du président...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">5</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Les nouvelles offres CE sont disponibles...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">6</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Inactive News FR</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">7</Field>
+          <Field Name="Enabled">false</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Obsolete News FR</Field>
+          <Field Name="PublicationDate">2010-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2011-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">8</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">Folgen Sie der Sitzung im Juli...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">1</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Neue Kurse zur Verfügung...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">2</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Das gesamte Programm von Veranstaltungen...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">3</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Folgen Sie leben die Entwicklung des Aktienkurses...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">4</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Befolgen Sie die Rede auf den Präsidenten zu starten...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">5</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Neue Angebote verfügbar Betriebsrat...</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">6</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Inactive News DE</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">7</Field>
+          <Field Name="Enabled">false</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Obsolete News DE</Field>
+          <Field Name="PublicationDate">2010-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2011-06-15 00:00:00</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="Order0">8</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+
+
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

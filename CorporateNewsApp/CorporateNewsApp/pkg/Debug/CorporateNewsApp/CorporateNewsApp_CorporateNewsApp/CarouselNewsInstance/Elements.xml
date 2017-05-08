@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Carousel News" OnQuickLaunch="FALSE" TemplateType="10000" Url="Lists/CarouselNews" Description="List to store news displayed in the carousel app part">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Company meeting</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Join the next community meeting on July.</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image1.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Join company meeting here</Field>
+          <Field Name="Order0">1</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">New trainings</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">The new trainings are now available.</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image2.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Read more about new trainings</Field>
+          <Field Name="Order0">2</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Next Contoso event</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">The next contoso event will be great !</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image3.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Read more</Field>
+          <Field Name="Order0">3</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Company share price</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Follow in real time the company share price</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image4.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Follow share price</Field>
+          <Field Name="Order0">4</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">CEO speech at the keynote</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Watch the video of our CEO during the last keynote</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image5.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Watch the video now</Field>
+          <Field Name="Order0">5</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Holidays offers</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Subscribe to the new holidays offers</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image6.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Read more</Field>
+          <Field Name="Order0">6</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Inactive News EN</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Corps lipsum notare ibena notice 7 EN</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image7.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Read more</Field>
+          <Field Name="Order0">7</Field>
+          <Field Name="Enabled">false</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Obsolete News EN</Field>
+          <Field Name="PublicationDate">2010-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2011-06-15 00:00:00</Field>
+          <Field Name="Summary">Corps lipsum notare ibena notice 7 EN</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image8.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Read more</Field>
+          <Field Name="Order0">8</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+
+        <Row>
+          <Field Name="Title">Reunion d'entreprise</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Suivez le meeting en Juillet.</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image1.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Voir toutes les infos</Field>
+          <Field Name="Order0">1</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Nouvelles formations</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">De nouvelles formations sont disponibles.</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image2.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Voir le catalogue des formations</Field>
+          <Field Name="Order0">2</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Prochains évènements</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Tout le programme des évènements</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image3.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">En savoir plus</Field>
+          <Field Name="Order0">3</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Cours de l'action</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Suivez en temps réel les évolutions de l'action</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image4.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Suivre le cours de l'action</Field>
+          <Field Name="Order0">4</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Discours du président</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Suivre le discours de lancement du président</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image5.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Regarder la vidéo maintenant</Field>
+          <Field Name="Order0">5</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Offres du CE</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Nouvelles offres CE disponibles</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image6.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">En savoir plus sur les offres du CE</Field>
+          <Field Name="Order0">6</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Inactive News FR-FR</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Corps lipsum notare ibena notice 7 FR</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image7.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Read more</Field>
+          <Field Name="Order0">7</Field>
+          <Field Name="Enabled">false</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Obsolete News FR-FR</Field>
+          <Field Name="PublicationDate">2010-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2011-06-15 00:00:00</Field>
+          <Field Name="Summary">Corps lipsum notare ibena notice 7 FR</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image8.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Read more</Field>
+          <Field Name="Order0">8</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">fr-fr</Field>
+        </Row>
+
+
+        <Row>
+          <Field Name="Title">Business-Treffen</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Folgen Sie der Sitzung im Juli.</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image1.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Erfahren Sie mehr</Field>
+          <Field Name="Order0">1</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Neue Formationen</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Neue Kurse zur Verfügung.</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image2.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Erfahren Sie mehr</Field>
+          <Field Name="Order0">2</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Bevorstehende Veranstaltungen</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Das gesamte Programm von Veranstaltungen</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image3.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Erfahren Sie mehr</Field>
+          <Field Name="Order0">3</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Aktienkurs an der Börse</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Folgen Sie leben die Entwicklung des Aktienkurses</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image4.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Erfahren Sie mehr</Field>
+          <Field Name="Order0">4</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Rede des Präsidenten</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Befolgen Sie die Rede auf den Präsidenten zu starten</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image5.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Erfahren Sie mehr</Field>
+          <Field Name="Order0">5</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Angebote des Betriebsrats</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Neue Angebote verfügbar Betriebsrat</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image6.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Erfahren Sie mehr</Field>
+          <Field Name="Order0">6</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Inactive News DE-DE</Field>
+          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Corps lipsum notare ibena notice 7 FR</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image7.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Read more</Field>
+          <Field Name="Order0">7</Field>
+          <Field Name="Enabled">false</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Obsolete News DE-DE</Field>
+          <Field Name="PublicationDate">2010-06-15 00:00:00</Field>
+          <Field Name="PublicationEndDate">2011-06-15 00:00:00</Field>
+          <Field Name="Summary">Corps lipsum notare ibena notice 7 FR</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image8.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Read more</Field>
+          <Field Name="Order0">8</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">de-de</Field>
+        </Row>
+
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

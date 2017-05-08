@@ -4,10 +4,10 @@
     <Data>
       <Rows>
         <Row>
-          <Field Name="Title">Company meeting</Field>
-          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="Title">Rims and Trims</Field>
+          <Field Name="PublicationDate">2017-05-05 00:00:00</Field>
           <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
-          <Field Name="Summary">Join the next community meeting on July.</Field>
+          <Field Name="Summary">View our rims and trims deals.</Field>
           <Field Name="ImageUrl">../HorizontalNewsImages/sample-01.jpg</Field>
           <Field Name="LinkUrl">#</Field>
           <Field Name="LinkLabel">Read more</Field>
@@ -16,10 +16,10 @@
           <Field Name="LanguageCode">en-us</Field>
         </Row>
         <Row>
-          <Field Name="Title">New trainings</Field>
-          <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
+          <Field Name="Title">New store trainings</Field>
+          <Field Name="PublicationDate">2017-05-05 00:00:00</Field>
           <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
-          <Field Name="Summary">The new trainings are now available.</Field>
+          <Field Name="Summary">New store training manuals available.</Field>
           <Field Name="ImageUrl">../HorizontalNewsImages/sample-02.jpg</Field>
           <Field Name="LinkUrl">#</Field>
           <Field Name="LinkLabel">Read more</Field>
@@ -28,10 +28,10 @@
           <Field Name="LanguageCode">en-us</Field>
         </Row>
         <Row>
-          <Field Name="Title">Next Contoso event</Field>
+          <Field Name="Title">Customer service</Field>
           <Field Name="PublicationDate">2012-06-15 00:00:00</Field>
           <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
-          <Field Name="Summary">The next contoso event will be great !</Field>
+          <Field Name="Summary">Enhancing our customers experience</Field>
           <Field Name="ImageUrl">../HorizontalNewsImages/sample-03.jpg</Field>
           <Field Name="LinkUrl">#</Field>
           <Field Name="LinkLabel">Read more</Field>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Code initially generated with SharePoint Software Factory 2010, Version 3.1, spsf.codeplex.com -->
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+		Title="Carousel News Images"
+		Description="Picture library to store the pictures for the carousel news"
+		FeatureId="00BFEA71-52D4-45B3-B544-B1C71B620109"
+		Id="47338B41-4C21-4F60-84A0-20782693FADC"
+		Url="CarouselNewsImages"
+		OnQuickLaunch="FALSE"
+		RootWebOnly="FALSE"
+		TemplateType="109">
+  </ListInstance>
+</Elements>

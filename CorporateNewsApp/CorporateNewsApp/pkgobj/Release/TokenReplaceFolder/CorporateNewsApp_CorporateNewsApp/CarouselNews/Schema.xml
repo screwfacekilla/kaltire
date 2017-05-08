@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Carousel News" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Carousel News" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100c4b818971cfe43be8354fa610351473b" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{90e7ed45-5a45-4dd4-86de-89036c637377}" Name="Enabled" /><FieldRef ID="{a6048420-3a4d-4a1b-84f8-1e5aa421ff84}" Name="PublicationDate" /><FieldRef ID="{fd26777f-c1c4-4baf-80d6-81b279de13b3}" Name="PublicationEndDate" /><FieldRef ID="{1d1d8aeb-b7db-415f-9b5e-de05a886ef14}" Name="Order0" /><FieldRef ID="{4d77c209-7ca3-422f-91eb-499ea58cfb5d}" Name="Summary" /><FieldRef ID="{fcdfaa11-2e59-448f-b6ad-cdf3a619d61e}" Name="ImageUrl" /><FieldRef ID="{f7bdd26c-178b-42f9-8353-30c2345ab242}" Name="LinkUrl" /><FieldRef ID="{18226374-2af4-48f1-b4da-efacbafda5e0}" Name="LinkLabel" /><FieldRef ID="{27c0bdf0-57db-4fdc-ab92-059c161a22aa}" Name="LanguageCode" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    
+      
+      
+        
+      
+          
+      
+            
+          <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="35" /><Field Name="Enabled" ID="{90e7ed45-5a45-4dd4-86de-89036c637377}" DisplayName="Enabled" Type="Boolean" Required="TRUE">
+        <Default>1</Default>
+      </Field><Field Name="PublicationDate" ID="{a6048420-3a4d-4a1b-84f8-1e5aa421ff84}" DisplayName="Publication Date" Type="DateTime" Required="TRUE">
+        <Default>[today]</Default>
+      </Field><Field Name="PublicationEndDate" ID="{fd26777f-c1c4-4baf-80d6-81b279de13b3}" DisplayName="Publication End Date" Type="DateTime" Required="TRUE" /><Field Name="Order0" ID="{1d1d8aeb-b7db-415f-9b5e-de05a886ef14}" DisplayName="Order" Type="Number" DisplayImage="" Required="TRUE">
+        <Default>1</Default>
+      </Field><Field Name="Summary" ID="{4d77c209-7ca3-422f-91eb-499ea58cfb5d}" DisplayName="Summary" Type="Note" NumLines="3" Required="TRUE" MaxLength="255" /><Field Name="ImageUrl" ID="{fcdfaa11-2e59-448f-b6ad-cdf3a619d61e}" DisplayName="Image Url" Type="Text" Required="TRUE" /><Field Name="LinkUrl" ID="{f7bdd26c-178b-42f9-8353-30c2345ab242}" DisplayName="Link Url" Type="Text" Required="TRUE" /><Field Name="LinkLabel" ID="{18226374-2af4-48f1-b4da-efacbafda5e0}" DisplayName="Link Label" Type="Text" MaxLength="100">
+        <Default>Read more</Default>
+      </Field><Field Name="LanguageCode" ID="{27c0bdf0-57db-4fdc-ab92-059c161a22aa}" DisplayName="LanguageCode" Type="Choice" Required="TRUE"><CHOICES><CHOICE>am-am</CHOICE><CHOICE>ar-ae</CHOICE><CHOICE>ar-bh</CHOICE><CHOICE>ar-dz</CHOICE><CHOICE>ar-eg</CHOICE><CHOICE>ar-iq</CHOICE><CHOICE>ar-jo</CHOICE><CHOICE>ar-kw</CHOICE><CHOICE>ar-lb</CHOICE><CHOICE>ar-ly</CHOICE><CHOICE>ar-ma</CHOICE><CHOICE>ar-om</CHOICE><CHOICE>ar-qa</CHOICE><CHOICE>ar-sa</CHOICE><CHOICE>ar-sy</CHOICE><CHOICE>ar-tn</CHOICE><CHOICE>ar-ye</CHOICE><CHOICE>as-as</CHOICE><CHOICE>az-az</CHOICE><CHOICE>az-az</CHOICE><CHOICE>be-be</CHOICE><CHOICE>bg-bg</CHOICE><CHOICE>bn-bn</CHOICE><CHOICE>bo-bo</CHOICE><CHOICE>bs-bs</CHOICE><CHOICE>ca-ca</CHOICE><CHOICE>cs-cs</CHOICE><CHOICE>cy-cy</CHOICE><CHOICE>da-da</CHOICE><CHOICE>de-at</CHOICE><CHOICE>de-ch</CHOICE><CHOICE>de-de</CHOICE><CHOICE>de-li</CHOICE><CHOICE>de-lu</CHOICE><CHOICE>dv-dv</CHOICE><CHOICE>el-el</CHOICE><CHOICE>en-au</CHOICE><CHOICE>en-bz</CHOICE><CHOICE>en-ca</CHOICE><CHOICE>en-cb</CHOICE><CHOICE>en-gb</CHOICE><CHOICE>en-ie</CHOICE><CHOICE>en-in</CHOICE><CHOICE>en-jm</CHOICE><CHOICE>en-nz</CHOICE><CHOICE>en-ph</CHOICE><CHOICE>en-tt</CHOICE><CHOICE>en-us</CHOICE><CHOICE>en-za</CHOICE><CHOICE>es-ar</CHOICE><CHOICE>es-bo</CHOICE><CHOICE>es-cl</CHOICE><CHOICE>es-co</CHOICE><CHOICE>es-cr</CHOICE><CHOICE>es-do</CHOICE><CHOICE>es-ec</CHOICE><CHOICE>es-es</CHOICE><CHOICE>es-gt</CHOICE><CHOICE>es-hn</CHOICE><CHOICE>es-mx</CHOICE><CHOICE>es-ni</CHOICE><CHOICE>es-pa</CHOICE><CHOICE>es-pe</CHOICE><CHOICE>es-pr</CHOICE><CHOICE>es-py</CHOICE><CHOICE>es-sv</CHOICE><CHOICE>es-uy</CHOICE><CHOICE>es-ve</CHOICE><CHOICE>et-et</CHOICE><CHOICE>eu-eu</CHOICE><CHOICE>fa-fa</CHOICE><CHOICE>fi-fi</CHOICE><CHOICE>fo-fo</CHOICE><CHOICE>fr-be</CHOICE><CHOICE>fr-ca</CHOICE><CHOICE>fr-ch</CHOICE><CHOICE>fr-fr</CHOICE><CHOICE>fr-lu</CHOICE><CHOICE>gd-gd</CHOICE><CHOICE>gd-ie</CHOICE><CHOICE>gn-gn</CHOICE><CHOICE>gu-gu</CHOICE><CHOICE>he-he</CHOICE><CHOICE>hi-hi</CHOICE><CHOICE>hr-hr</CHOICE><CHOICE>hu-hu</CHOICE><CHOICE>hy-hy</CHOICE><CHOICE>id-id</CHOICE><CHOICE>is-is</CHOICE><CHOICE>it-ch</CHOICE><CHOICE>it-it</CHOICE><CHOICE>ja-ja</CHOICE><CHOICE>kk-kk</CHOICE><CHOICE>km-km</CHOICE><CHOICE>kn-kn</CHOICE><CHOICE>ko-ko</CHOICE><CHOICE>ks-ks</CHOICE><CHOICE>la-la</CHOICE><CHOICE>lo-lo</CHOICE><CHOICE>lt-lt</CHOICE><CHOICE>lv-lv</CHOICE><CHOICE>mi-mi</CHOICE><CHOICE>mk-mk</CHOICE><CHOICE>ml-ml</CHOICE><CHOICE>mn-mn</CHOICE><CHOICE>mr-mr</CHOICE><CHOICE>ms-bn</CHOICE><CHOICE>ms-my</CHOICE><CHOICE>mt-mt</CHOICE><CHOICE>my-my</CHOICE><CHOICE>nb-no</CHOICE><CHOICE>ne-ne</CHOICE><CHOICE>nl-be</CHOICE><CHOICE>nl-nl</CHOICE><CHOICE>no-no</CHOICE><CHOICE>or-or</CHOICE><CHOICE>pa-pa</CHOICE><CHOICE>pl-pl</CHOICE><CHOICE>pt-br</CHOICE><CHOICE>pt-pt</CHOICE><CHOICE>rm-rm</CHOICE><CHOICE>ro-ro</CHOICE><CHOICE>ro-mo</CHOICE><CHOICE>ru-ru</CHOICE><CHOICE>ru-mo</CHOICE><CHOICE>sa-sa</CHOICE><CHOICE>sb-sb</CHOICE><CHOICE>sd-sd</CHOICE><CHOICE>si-si</CHOICE><CHOICE>sk-sk</CHOICE><CHOICE>sl-sl</CHOICE><CHOICE>so-so</CHOICE><CHOICE>sq-sq</CHOICE><CHOICE>sr-sp</CHOICE><CHOICE>sr-sp</CHOICE><CHOICE>sv-fi</CHOICE><CHOICE>sv-se</CHOICE><CHOICE>sw-sw</CHOICE><CHOICE>ta-ta</CHOICE><CHOICE>te-te</CHOICE><CHOICE>tg-tg</CHOICE><CHOICE>th-th</CHOICE><CHOICE>tk-tk</CHOICE><CHOICE>tn-tn</CHOICE><CHOICE>tr-tr</CHOICE><CHOICE>ts-ts</CHOICE><CHOICE>tt-tt</CHOICE><CHOICE>uk-uk</CHOICE><CHOICE>ur-ur</CHOICE><CHOICE>uz-uz</CHOICE><CHOICE>vi-vi</CHOICE><CHOICE>xh-xh</CHOICE><CHOICE>yi-yi</CHOICE><CHOICE>zh-cn</CHOICE><CHOICE>zh-hk</CHOICE><CHOICE>zh-mo</CHOICE><CHOICE>zh-sg</CHOICE><CHOICE>zh-tw</CHOICE><CHOICE>zu-zu</CHOICE></CHOICES></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Summary" /><FieldRef Name="Enabled" /><FieldRef Name="LinkUrl" /><FieldRef Name="PublicationDate" /><FieldRef Name="PublicationEndDate" /><FieldRef Name="Order0" /><FieldRef Name="LanguageCode" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

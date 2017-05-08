@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="db7669eb-3350-48fa-a94f-1372823bdccf" SharePointProductVersion="15.0">
+  <FeatureManifests>
+    <FeatureManifest Location="CorporateNewsApp_CorporateNewsApp\Feature.xml" />
+  </FeatureManifests>
+</Solution>

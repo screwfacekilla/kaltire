@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="CarouselNewsAppPart" Title="Carousel News App Part" Description="This web part adds a dynamic carousel news app part in your page." DefaultWidth="755" DefaultHeight="233">
+
+    <Content Type="html" Src="~appWebUrl/Pages/CarouselAppPart.aspx?SPHostUrl={HostUrl}&amp;SPAppWebUrl={AppWebUrl}&amp;SPLanguage={Language}&amp;AutoStart=_AutoStart_&amp;Circular=_Circular_&amp;AllowKeyboard=_AllowKeyboard_&amp;Speed=_Speed_&amp;Transition=_Transition_&amp;PanelFxSpeed=_PanelFxSpeed_&amp;CaptionsTransition=_CaptionsTransition_&amp;CaptionsDelay=_CaptionsDelay_&amp;CaptionsTransitionDuration=_CaptionsTransitionDuration_&amp;CssFile=_CssFile_" />
+
+    <Properties>
+      <!-- General Settings -->
+      <Property Name="AutoStart" Type="boolean" WebBrowsable="true" WebDisplayName="AutoStart" WebDescription="Please Choose if you want that the carousel slideshow starts automatically" WebCategory="General Settings" DefaultValue="true" RequiresDesignerPermission="true" />
+      <Property Name="Circular" Type="boolean" WebBrowsable="true" WebDisplayName="Circular" WebDescription="Please Choose if you want that the news slideshow is circular" WebCategory="General Settings" DefaultValue="true" RequiresDesignerPermission="true" />
+      <Property Name="AllowKeyboard" Type="boolean" WebBrowsable="true" WebDisplayName="Allow keyboard" WebDescription="Please Choose if you want to allow use of keyboard" WebCategory="General Settings" DefaultValue="true" RequiresDesignerPermission="true" />
+      <Property Name="CssFile" Type="string" WebBrowsable="true" WebDisplayName="Custom CSS File" WebDescription="Indicates a custom CSS file url" WebCategory="General Settings" DefaultValue="" RequiresDesignerPermission="true" />
+      <!-- Effects Settings -->
+      <Property Name="Speed" Type="int" WebBrowsable="true" WebDisplayName="Transition speed" WebDescription="Please Choose the transition speed between news" WebCategory="Effects Settings" DefaultValue="8000" RequiresDesignerPermission="true" />
+      <Property Name="Transition" Type="enum" WebBrowsable="true" WebDisplayName="Transition" WebDescription="Please Choose the transition effect" WebCategory="Effects Settings" DefaultValue="fading" RequiresDesignerPermission="true">
+        <EnumItems>
+          <EnumItem WebDisplayName="None" Value="none"/>
+          <EnumItem WebDisplayName="Fading" Value="fading"/>
+          <EnumItem WebDisplayName="Sliding" Value="sliding"/>
+        </EnumItems>
+      </Property>
+      <Property Name="PanelFxSpeed" Type="int" WebBrowsable="true" WebDisplayName="Panel Fx Speed" WebDescription="Please Choose the effect panel speed" WebCategory="Effects Settings" DefaultValue="500" RequiresDesignerPermission="true" />
+      <Property Name="CaptionsTransition" Type="enum" WebBrowsable="true" WebDisplayName="Captions transition" WebDescription="Please Choose the transition type for the captions" WebCategory="Effects Settings" DefaultValue="sliding" RequiresDesignerPermission="true">
+        <EnumItems>
+          <EnumItem WebDisplayName="None" Value="none"/>
+          <EnumItem WebDisplayName="Fading" Value="fading"/>
+          <EnumItem WebDisplayName="Sliding" Value="sliding"/>
+        </EnumItems>
+      </Property>
+      <Property Name="CaptionsDelay" Type="int" WebBrowsable="true" WebDisplayName="Captions Delay" WebDescription="Please Choose the delay for the captions." WebCategory="Effects Settings" DefaultValue="10" RequiresDesignerPermission="true" />
+      <Property Name="CaptionsTransitionDuration" Type="int" WebBrowsable="true" WebDisplayName="Captions Transitions Duration" WebDescription="Please Choose the transition duration for the captions" WebCategory="Effects Settings" DefaultValue="300" RequiresDesignerPermission="true" />
+    </Properties> 
+
+  </ClientWebPart>
+</Elements>

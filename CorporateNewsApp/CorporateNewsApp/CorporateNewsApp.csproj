@@ -109,9 +109,6 @@
     <Content Include="CarouselNews\CarouselNewsImagesMock\image1.jpg" />
     <Content Include="CarouselNews\CarouselNewsImagesMock\image2.jpg" />
     <Content Include="CarouselNews\CarouselNewsImagesMock\image3.jpg" />
-    <Content Include="CarouselNews\CarouselNewsImagesMock\image4.jpg" />
-    <Content Include="CarouselNews\CarouselNewsImagesMock\image5.jpg" />
-    <Content Include="CarouselNews\CarouselNewsImagesMock\image6.jpg" />
     <Content Include="CarouselNews\CarouselNewsImages\Elements.xml" />
     <Content Include="CarouselNews\CarouselNews\CarouselNewsInstance\Elements.xml" />
     <Content Include="CarouselNews\CarouselNews\Elements.xml" />
@@ -136,7 +133,9 @@
     <Content Include="HorizontalNews\HorizontalNewsImagesMock\sample-06.jpg" />
     <Content Include="HorizontalNews\HorizontalNewsImagesMock\sample-07.jpg" />
     <Content Include="HorizontalNews\HorizontalNewsImages\Elements.xml" />
-    <Content Include="HorizontalNews\HorizontalNews\Elements.xml" />
+    <Content Include="HorizontalNews\HorizontalNews\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Images\arrows-h-btn.png" />
     <Content Include="Images\arrows-h-btn1.png" />
     <Content Include="Images\arrows-h-btn2.png" />

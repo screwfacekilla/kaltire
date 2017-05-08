@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Carousel News" OnQuickLaunch="FALSE" TemplateType="10000" Url="Lists/CarouselNews" Description="List to store news displayed in the carousel app part">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Blazing Deals</Field>
+          <Field Name="PublicationDate">2017-05-05 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">View our blazing deals for this month</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image1.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Kaltires blazing deals</Field>
+          <Field Name="Order0">1</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Rolling Out Specials</Field>
+          <Field Name="PublicationDate">2017-05-05 00:00:00</Field>
+          <Field Name="PublicationEndDate">2020-06-15 00:00:00</Field>
+          <Field Name="Summary">Specials and Rebates</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image2.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">Marketing Retread Specials</Field>
+          <Field Name="Order0">2</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Retail Clearance Lists</Field>
+          <Field Name="PublicationDate">2017-05-05 00:00:00</Field>
+          <Field Name="PublicationEndDate">2017-05-05 00:00:00</Field>
+          <Field Name="Summary">The new clearance listings effective from</Field>
+          <Field Name="ImageUrl">../CarouselNewsImages/image3.jpg</Field>
+          <Field Name="LinkUrl">#</Field>
+          <Field Name="LinkLabel">View this months clearance listings</Field>
+          <Field Name="Order0">3</Field>
+          <Field Name="Enabled">true</Field>
+          <Field Name="LanguageCode">en-us</Field>
+        </Row>       
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

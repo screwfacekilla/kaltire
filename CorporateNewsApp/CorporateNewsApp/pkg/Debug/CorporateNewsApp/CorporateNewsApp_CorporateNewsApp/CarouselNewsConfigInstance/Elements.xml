@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="CarouselNewsConfig" OnQuickLaunch="TRUE" TemplateType="10002" Url="Lists/CarouselNewsConfig" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Width</Field>
+          <Field Name="KeyValue">755</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Height</Field>
+          <Field Name="KeyValue">233</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PanelWidth</Field>
+          <Field Name="KeyValue">474</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PanelHeight</Field>
+          <Field Name="KeyValue">233</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TabWidth</Field>
+          <Field Name="KeyValue">280</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TabHeight</Field>
+          <Field Name="KeyValue">78</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SubWidth</Field>
+          <Field Name="KeyValue">474</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SubHeight</Field>
+          <Field Name="KeyValue">24</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Loader</Field>
+          <Field Name="KeyValue">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">BgColor</Field>
+          <Field Name="KeyValue">EFEBE7</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TabBgColor</Field>
+          <Field Name="KeyValue">898D8D</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TabBgGradient</Field>
+          <Field Name="KeyValue">true</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TabFontColor</Field>
+          <Field Name="KeyValue">FFFFFF</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TabHoverBgColor</Field>
+          <Field Name="KeyValue">A1A3A3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TabHoverFontColor</Field>
+          <Field Name="KeyValue">FFFFFF</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SelectedTabBgColor</Field>
+          <Field Name="KeyValue">F4B100</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SelectedTabFontColor</Field>
+          <Field Name="KeyValue">FFFFFF</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TabPaddingLeft</Field>
+          <Field Name="KeyValue">18</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TabPaddingTop</Field>
+          <Field Name="KeyValue">18</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TabPaddingRight</Field>
+          <Field Name="KeyValue">18</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">TabPaddingBottom</Field>
+          <Field Name="KeyValue">18</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">FontFamily</Field>
+          <Field Name="KeyValue">Segoe UI</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">FontSize</Field>
+          <Field Name="KeyValue">16px</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">FontSizeUpperCase</Field>
+          <Field Name="KeyValue">true</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">DescriptionFontSize</Field>
+          <Field Name="KeyValue">12px</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PaginationFontSize</Field>
+          <Field Name="KeyValue">13px</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PaginationBgColor</Field>
+          <Field Name="KeyValue">ADB3B9</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PaginationBgGradient</Field>
+          <Field Name="KeyValue">true</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PaginationFontColor</Field>
+          <Field Name="KeyValue">FFFFFF</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PaginationHoverBgColor</Field>
+          <Field Name="KeyValue">707273</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PaginationHoverFontColor</Field>
+          <Field Name="KeyValue">FFFFFF</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SelectedPaginationBgColor</Field>
+          <Field Name="KeyValue">707273</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SelectedPaginationFontColor</Field>
+          <Field Name="KeyValue">FFFFFF</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PaginationWidth</Field>
+          <Field Name="KeyValue">20</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PaginationHeight</Field>
+          <Field Name="KeyValue">20</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SubTitlesFontSize</Field>
+          <Field Name="KeyValue">11px</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SubTitlesBg</Field>
+          <Field Name="KeyValue">transparent</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SubTitlesBgColor</Field>
+          <Field Name="KeyValue">707273</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SubTitlesFontColor</Field>
+          <Field Name="KeyValue">FFFFFF</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements> 

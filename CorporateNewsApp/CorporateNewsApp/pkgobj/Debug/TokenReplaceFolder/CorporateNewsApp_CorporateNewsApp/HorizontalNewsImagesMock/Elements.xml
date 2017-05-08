@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="HorizontalNewsImagesMock" Url="HorizontalNewsImages">
+    <File Path="HorizontalNewsImagesMock\sample-01.jpg" Url="sample-01.jpg" Type="GhostableInLibrary"/>
+    <File Path="HorizontalNewsImagesMock\sample-02.jpg" Url="sample-02.jpg" Type="GhostableInLibrary"/>
+    <File Path="HorizontalNewsImagesMock\sample-03.jpg" Url="sample-03.jpg" Type="GhostableInLibrary"/>
+    <File Path="HorizontalNewsImagesMock\sample-04.jpg" Url="sample-04.jpg" Type="GhostableInLibrary"/>
+    <File Path="HorizontalNewsImagesMock\sample-05.jpg" Url="sample-05.jpg" Type="GhostableInLibrary"/>
+    <File Path="HorizontalNewsImagesMock\sample-06.jpg" Url="sample-06.jpg" Type="GhostableInLibrary"/>
+    <File Path="HorizontalNewsImagesMock\sample-07.jpg" Url="sample-07.jpg" Type="GhostableInLibrary"/>
+  </Module>
+</Elements>
