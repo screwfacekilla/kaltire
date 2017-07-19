@@ -34,7 +34,7 @@
 .sliderkitContainer .rm-slider-default .sliderkit-nav-clip li a:hover,
 .sliderkitContainer .rm-slider-default .sliderkit-nav-clip li a:focus{outline:none;background-color:#a1a3a3;}
 .sliderkitContainer .rm-slider-default .sliderkit-nav-clip li.sliderkit-selected{background:transparent url("../images/rm-slider-nav-arrow.png") no-repeat 0 center;}
-.sliderkitContainer .rm-slider-default .sliderkit-nav-clip li.sliderkit-selected a{background-color:#f4b100;}
+.sliderkitContainer .rm-slider-default .sliderkit-nav-clip li.sliderkit-selected a{background-color:#f06922;}
 
 /* Panel */
 .sliderkitContainer .rm-slider-default .sliderkit-panels{position:absolute;left:0;width:474px;height:233px;overflow:hidden;}

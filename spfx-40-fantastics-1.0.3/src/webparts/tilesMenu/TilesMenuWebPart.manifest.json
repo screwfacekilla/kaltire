@@ -1,0 +1,74 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "ee6ccc68-d0ec-456c-8968-08a705191cf1",
+  "alias": "TilesMenu",
+  "componentType": "WebPart",
+  "version": "1.0.0",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "72505c62-b3c0-4cc3-89d8-f2adc8d962a0",
+    "group": { "default": "News Management" },
+    "title": { "default": "Tiles Menu" },
+    "description": { "default": "This Web Part allows you to very easily create a menu in form of tiles that is responsive and adapted for mobile. You can directly manage the items on your menu, with a title, an image and manage Visual rendering options." },
+    "officeFabricIconFontName": "Tiles",
+    "properties": {
+      "justified": true,
+      "enableIcons": false,
+      "enableShadow": false,
+      "enableBorder": false,
+      "spaceBetweenCols": 3,
+      "borderColor": "#CCCCCC",
+      "border": 2,
+      "textPanelEnable": true,
+      "textPanelAlwaysOnTop": false,
+      "textPanelPosition": "inline-bottom",
+      "textPanelOpacity": 0.4,
+      "items": [
+        {
+          "Title": "Discover the new work station",
+          "Enable": "true",
+          "Description": "Smart, fast & easy: discover the new work station",
+          "Link Url": "#",
+          "Picture": "//spfx40fantastics.azureedge.net/spfx40fantastics/images/menu/pexels-photo-204611-large.jpeg"
+        },
+        {
+          "Title": "All the Intranet in your Smart Phone",
+          "Enable": "true",
+          "Description": "Stay connected with the Intranet App",
+          "Link Url": "#",
+          "Picture": "//spfx40fantastics.azureedge.net/spfx40fantastics/images/menu/pexels-photo-large.jpg"
+        },
+        {
+          "Title": "Take a break!",
+          "Enable": "true",
+          "Description": "Discover the new coffees selection",
+          "Link Url": "#",
+          "Picture": "//spfx40fantastics.azureedge.net/spfx40fantastics/images/menu/pexels-photo-70221-large.jpeg"
+        },
+        {
+          "Title": "Discover the new meeting areas",
+          "Enable": "true",
+          "Description": "New meeting areas available at Level 2",
+          "Link Url": "#",
+          "Picture": "//spfx40fantastics.azureedge.net/spfx40fantastics/images/menu/space-desk-workspace-coworking-large.jpg"
+        },
+        {
+          "Title": "New travel policies",
+          "Enable": "true",
+          "Description": "The new travel policies are available",
+          "Link Url": "#",
+          "Picture": "//spfx40fantastics.azureedge.net/spfx40fantastics/images/menu/pexels-photo-large-car.jpg"
+        },
+        {
+          "Title": "New commons",
+          "Enable": "false",
+          "Description": "View the video of the new commons",
+          "Link Url": "#",
+          "Picture": "//spfx40fantastics.azureedge.net/spfx40fantastics/images/menu/pexels-photo-58801-large.jpeg"
+        }
+      ]
+    }
+  }]
+}
