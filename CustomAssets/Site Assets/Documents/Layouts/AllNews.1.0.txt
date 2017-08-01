@@ -1,0 +1,3 @@
+<div class="latestUpdates">
+<a class="latestUpdateslink" href="/sites/OpsPortalUAT/news">All Latest Updates ></a>
+</div>    
